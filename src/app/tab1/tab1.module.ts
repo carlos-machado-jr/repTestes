@@ -7,6 +7,8 @@ import { ExploreContainerComponentModule } from '../explore-container/explore-co
 
 import { Tab1PageRoutingModule } from './tab1-routing.module';
 import { NativeAudio } from '@ionic-native/native-audio/ngx';
+import { MusicControls } from '@ionic-native/music-controls/ngx';
+import { Media } from '@ionic-native/media/ngx';
 
 @NgModule({
   imports: [
@@ -16,7 +18,7 @@ import { NativeAudio } from '@ionic-native/native-audio/ngx';
     ExploreContainerComponentModule,
     Tab1PageRoutingModule
   ],
-  providers: [ NativeAudio ],
+  providers: [ NativeAudio, MusicControls, Media ],
   declarations: [Tab1Page]
 })
 export class Tab1PageModule {}
