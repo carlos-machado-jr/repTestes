@@ -1,0 +1,30 @@
+.avatar{
+    border-radius: 37px;
+    min-width: 46px;
+}
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: auto;
+    margin-left: -27px;
+}
+.container ol li {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #266fc5;
+    max-width: 100vw;
+    display: flex;
+    width: 350px;
+}
+.label{
+    line-height: 30px;
+    margin-left: 15px;
+}
+.alignItens{
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}
